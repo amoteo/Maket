@@ -1,0 +1,17 @@
+.header{
+    display: grid;
+
+    grid-template-areas: "b t";
+    grid-template-columns: 2fr 10fr 2fr;
+}
+
+.title{
+    grid-area: t;
+    text-align: center;
+}
+
+.back{
+    grid-area: b;
+    padding-left: 20px;
+    padding-top: 15px;
+}

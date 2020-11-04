@@ -1,0 +1,134 @@
+.wrapperCards{
+    /*background-color: blue;*/
+
+    width: 360px;
+    height: 380px;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*border-radius: 60px;*/
+}
+
+.card{
+    width: 350px;
+    height: 80px;
+
+    border-width: 2px;
+    background-color:white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-shadow: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: grid;
+    grid-template-areas: "i d b";
+}
+
+.icon{
+    margin-top: 5px;
+    margin-left: 25px;
+    width: 35px;
+    height: 60px;
+    border-radius: 30px;
+    grid-area: i;
+}
+
+.description{
+    margin-top: 10px;
+    grid-area: d;
+}
+
+.button{
+    margin: auto;
+
+    grid-area: b;
+}
+
+.nameBold{
+    font-weight: bold;
+    font-size: small;
+}
+
+.typeName{
+    font-size: small;
+}
+
+.iconStarFull{
+    width: 15px;
+    height: 15px;
+}
+
+.iconButPlusOrMinus{
+    width: 25px;
+    height: 25px;
+}
+
+
+.iconStarEmpty{
+    width: 13px;
+    height: 13px;
+    padding-bottom: 1px;
+}
+
+.butAdd{
+
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.textDecor
+{
+    margin-left: 5px;
+    margin-bottom: 4px;
+}
+
+.footer{
+    background-color: cornflowerblue;
+    width: 400px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 94px;
+
+    display: grid;
+    grid-template-areas: "des sub";
+}
+
+.descrSUBMIT{
+    grid-area: des;
+    margin-top: 20px;
+    margin-left: 45px;
+
+}
+
+.descrStatic{
+    font-weight: bold;
+    font-size: small;
+}
+
+.descrDinam{
+    font-weight: bold;
+
+}
+
+.ChoiceColProducts{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.SUBMIT{
+    grid-area: sub;
+    border-radius: 90px;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    width: 130px;
+    height: 48px;
+    font-weight: bold;
+    margin-left: 35px;
+    border-style: none;
+}

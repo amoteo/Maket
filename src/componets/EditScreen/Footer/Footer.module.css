@@ -1,0 +1,46 @@
+.footer{
+    background-color: cornflowerblue;
+    width: 400px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 94px;
+
+    display: grid;
+    grid-template-areas: "des sub";
+}
+
+.descrSUBMIT{
+    grid-area: des;
+    margin-top: 20px;
+    margin-left: 45px;
+
+}
+
+.descrStatic{
+    font-weight: bold;
+    font-size: small;
+}
+
+.descrDinam{
+    font-weight: bold;
+
+}
+
+.ChoiceColProducts{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.SUBMIT{
+    grid-area: sub;
+    border-radius: 90px;
+    background-color: green;
+    color: white;
+    margin-top: 20px;
+    width: 130px;
+    height: 48px;
+    font-weight: bold;
+    margin-left: 35px;
+    border-style: none;
+}

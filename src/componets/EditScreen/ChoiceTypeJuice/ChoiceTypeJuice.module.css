@@ -1,0 +1,28 @@
+.types{
+    text-align: center;
+    display: grid;
+
+    grid-template-areas: "t t t" "p p p";
+
+}
+
+.type{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    grid-area: t;
+}
+
+.active{
+    font-weight: bold;
+}
+.greenPoint
+{
+
+    background-color: green;
+    width: 8px;
+    height: 8px;
+    border-radius: 30px;
+    grid-area: p;
+
+}
